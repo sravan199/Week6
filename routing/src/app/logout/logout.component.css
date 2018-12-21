@@ -1,0 +1,25 @@
+.btn {
+    color: white;
+    padding: 2px 6px;
+    text-align: center;
+    font-size: 18px;
+    margin: 1px 1px;
+    background-color: white; 
+    color: rgb(228, 34, 34); 
+    border: 2px solid rgb(22, 15, 15);
+    width: 8%;
+    position: absolute;
+    cursor: pointer;
+
+   
+  }
+  
+  .btn:hover {
+    background-color: rgb(186, 0, 0);
+    color: white;
+  }
+  .final{
+   font-size: 22px;
+   text-align: center;
+   
+  }

@@ -1,0 +1,27 @@
+
+
+<ul>
+  <li><a class="active" (click)="alertfun()" routerLink="/logout">Logout</a></li>
+</ul>
+
+<div class="myimage" >
+<br>
+<br>
+<br>
+<br>
+<br>
+ <div  class="test">  
+ <div class="full"  *ngFor="let element of list " > 
+   <div>
+    <img (click)='onclick(element)' src="{{element.images}}" height="150" width="150"/>
+    <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <button class='btn' (click)='onclick(element)'  >{{element.name}} </button>
+    </div>
+<br>
+</div>  
+     
+</div>
+     
+
+</div>

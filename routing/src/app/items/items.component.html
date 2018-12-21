@@ -1,0 +1,25 @@
+
+      <ul>
+          <li><a  routerLink="/home">Home</a></li>
+        <li><a class="active" (click)="alertfun()" routerLink="/logout">Logout</a></li>
+      </ul>
+      
+
+      <router-outlet></router-outlet>
+    <br><br><br>
+   <div  class="gallery"> 
+     <div class="thumb" *ngFor='let temp of list[itemId-1]' >
+      <div>
+         <img src={{temp.image}} height="150" width="150"/>
+      </div>
+  <div>
+    <p>  Name:{{temp.restaurants}}  , &nbsp; Cost {{temp.costs}} Rs <br>
+    <strong>  Estimated time {{temp.time}}  ,&nbsp;&nbsp; {{temp.mode}}</strong> </p>
+  </div>
+  <div>
+    <button class="buy" (click)='placeorder()'>Buy</button>
+    <br> <br>
+  </div>
+  </div>
+  </div>
+  

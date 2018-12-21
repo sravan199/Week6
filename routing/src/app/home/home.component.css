@@ -1,0 +1,79 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+  .btn {
+    color: white;
+    padding: 2px 6px;
+    text-align: center;
+    font-size: 18px;
+    margin: 1px 1px;
+    background-color: white; 
+    color: rgb(228, 34, 34); 
+    border: 2px solid rgb(22, 15, 15);
+    width: 8%;
+    position: absolute;
+    cursor: pointer;
+
+   
+  }
+  
+  .btn:hover {
+    background-color: rgb(186, 0, 0);
+    color: white;
+  }
+
+.myimage{
+ /* // position: fixed; */
+ /* position:absolute; */
+  /* width: 100%;*/
+  height: 660px; 
+  /* top: 0;
+  left: 0;
+  right: 0;
+  /* bottom: 0; */
+  
+  background-image:url('https://c.wallhere.com/photos/7c/b1/k_rbis_tokina90mmbokina-505241.jpg!d'); 
+  background-size:cover ;
+  background-position: center; 
+  background-attachment: fixed 
+  
+} 
+
+ .full{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ 
+ }
+
+  .test{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:100px auto ;
+   
+  }
