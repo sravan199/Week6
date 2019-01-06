@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+      <form #userForm="ngForm">
+     <!-- {{userForm.value}} -->
+
+      <div class="form_bg">
+               <h2 class="text-center">Login Page</h2>
+              <br/>
+              <div class="form-group"  >
+                  <input type="email" class="form-control" [(ngModel)]=userNameEmail id="userid"name="email" placeholder="User Name/Email">
+              </div>
+              <div class="form-group">
+                  <input type="password" class="form-control" [(ngModel)]=password id="pwd" name ="password" placeholder="Password">
+              </div>
+              <br/>
+              <div class="align-center">
+                  <button type="button" class="btn btn-info" (click)=onclick()>Login</button>
+              </div>  
+              <br>
+              <h2 class="text-center">Sign up</h2>
+              <br>
+              <div class="align-center">
+                    <button type="button" class="btn btn-info" (click)=forRegister()>register</button>
+              </div>  
+      </div>
+    </form>
+  </div>
+</div>
